@@ -1,0 +1,9 @@
+.login{
+    color: green;
+    text-transform: lowercase;
+}
+
+.notlogin{
+    color: red;
+    text-transform: uppercase;
+}
