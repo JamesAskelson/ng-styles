@@ -1,9 +1,19 @@
 .login{
+    border: solid;
+    border-radius: 20%;
+    border-color: aqua;
     color: green;
     text-transform: lowercase;
 }
 
 .notlogin{
+    border: solid;
+    border-color: blueviolet;
     color: red;
     text-transform: uppercase;
+}
+
+.apple {
+    border: solid;
+    color: red
 }

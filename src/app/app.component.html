@@ -11,3 +11,9 @@
 
 <h3 [class.login]="loggedin" [class.notlogin]="!loggedin">Logged in styles but with a class</h3>
 <h3 [ngClass]="loggedin ? 'login' : 'notlogin'">Login styles but with ngclass</h3>
+
+
+<h2>Style Binding</h2>
+
+<h3 [ngClass]="[fruit === 'apple' ? 'apple' : '']">Only changes color if the variable name is apple</h3>
+<h3 [ngClass]="[fruit === 'banana' ? 'apple' : '']">Only changes color if the variable name is banana</h3>
